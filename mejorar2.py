@@ -329,7 +329,7 @@ if num%2 == 0:
 else:
      print("es impar")
 """
-
+"""
 #5
 #Los alumnos de un curso se han dividido en dos grupos A y B de acuerdo al sexo y nombre.
 #elgrupo A esta formado por las mujeres con un nombre anterior a la M y los hombres con nombre anterior a la N y el grupo B por el resto.
@@ -337,7 +337,7 @@ else:
          
 name= input("ingrese nombre: ")
 gen= input("ingrese genero: ")
-
+"""
 
 #6
 """
@@ -398,5 +398,18 @@ else:
         print("°"*55)
         print("Pizza No vegana:Salsa de tomate\t mozzarella \t Salmon")
         print("°"*55)
-"""      
-#8
+"""
+"""
+#Actividad 29
+frent= int(input( "ingrese medida frente: "))
+fond= int(input ("ingrese medida fondo: "))
+
+if frent==fond:
+            print("Terreno cuadrado")
+            print("el perimentro es",4*fond)
+            print("la superficie es",frent*fond)
+else:
+    print("Terreno rectangular")
+    print("el perimentro es",4*fond)
+    print("la superficie es",frent*fond)
+"""
