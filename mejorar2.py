@@ -405,11 +405,11 @@ frent= int(input( "ingrese medida frente: "))
 fond= int(input ("ingrese medida fondo: "))
 
 if frent==fond:
-            print("Terreno cuadrado")
-            print("el perimentro es",4*fond)
-            print("la superficie es",frent*fond)
+    print("Terreno cuadrado")
+    print("el perimentro es",4*fond)
+    print("la superficie es",frent*fond)
 else:
     print("Terreno rectangular")
-    print("el perimentro es",4*fond)
+    print("el perimentro es",2*fond+2*frent)
     print("la superficie es",frent*fond)
 """
